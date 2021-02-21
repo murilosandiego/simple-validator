@@ -12,6 +12,7 @@ install:
   - gem install coveralls-lcov
 script:
   - dart pub get
+  - dart test --platform vm
   - pub run test_coverage
 after_success:
   - coveralls-lcov coverage/lcov.info
