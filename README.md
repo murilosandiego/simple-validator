@@ -1,5 +1,7 @@
 # Simple Validator
 
+[![Build Status](https://travis-ci.com/murilosandiego/simple-validator.svg?branch=main)](https://travis-ci.com/murilosandiego/simple-validator)
+
 Simple Validator is a text validation library for Dart/Flutter developed in Dart.It comes with lots of built-in rules for validation such as email, password, credit cards, special character validations.
 In EasyValidation library, you can perform multiple validation checks on same text at a single time. For example, you want user's password to have at least 8 characters length with one special character, one uppercase letter and one number. Then you can do these types of checks like this:
 
